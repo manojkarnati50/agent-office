@@ -1,7 +1,7 @@
 {
  "public": true,
- "generated": "17 Oct 2026, 04:22 PM IST",
- "generated_iso": "2026-10-17T16:22:59.608859+05:30",
+ "generated": "17 Oct 2026, 04:28 PM IST",
+ "generated_iso": "2026-10-17T16:28:54.824574+05:30",
  "pri": {
   "P0": 1,
   "P1": 4,
@@ -419,7 +419,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 4:00 PM",
+   "tag": "WORKING",
+   "text": "Mark: read chat list, sent report to Hermes",
    "id": "0387def965f7"
   },
   {
@@ -431,7 +432,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 4:00 PM",
+   "tag": "WORKING",
+   "text": "Mark: read chat list, sent report to Hermes",
    "id": "956589c622db"
   },
   {
@@ -443,7 +445,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 3:57 PM",
+   "tag": "NEEDS YOU",
+   "text": "Mark: needs your input",
    "id": "c120f59b6794"
   },
   {
@@ -454,7 +457,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Hermes → Elon: report sent 3:52 PM",
+   "tag": "WORKING",
+   "text": "Hermes: updated the tracker, sent report to Elon",
    "id": "eadbd0ed1334"
   },
   {
@@ -464,7 +468,8 @@
    "route": [
     "Elon"
    ],
-   "text": "Elon: update logged 3:45 PM",
+   "tag": "WORKING",
+   "text": "Elon: updated priorities",
    "id": "f8f0cb298533"
   },
   {
@@ -476,7 +481,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 12:00 PM",
+   "tag": "DONE",
+   "text": "Mark: finished a task",
    "id": "f71e779a735d"
   },
   {
@@ -488,7 +494,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Ray → Hermes: report sent 9:00 AM",
+   "tag": "WORKING",
+   "text": "Ray: checked inbox, sent report to Hermes",
    "id": "092853c1f139"
   },
   {
@@ -498,7 +505,8 @@
    "route": [
     "Elon"
    ],
-   "text": "Elon: update logged 9:00 AM",
+   "tag": "WORKING",
+   "text": "Elon: updated priorities",
    "id": "250c100098c3"
   },
   {
@@ -510,7 +518,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 8:52 AM",
+   "tag": "WORKING",
+   "text": "Mark: read chat list, sent report to Hermes",
    "id": "78e8c557641d"
   },
   {
@@ -522,7 +531,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 8:39 AM",
+   "tag": "DONE",
+   "text": "Mark: finished a task",
    "id": "fad48c0a994c"
   },
   {
@@ -534,7 +544,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 8:29 AM",
+   "tag": "WORKING",
+   "text": "Mark: read chat list, sent report to Hermes",
    "id": "c8b5ca3d1921"
   },
   {
@@ -546,7 +557,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Ray → Hermes: report sent 7:31 PM",
+   "tag": "NEEDS YOU",
+   "text": "Ray: needs your input",
    "id": "a5d484ae0157"
   },
   {
@@ -558,7 +570,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Morse → Hermes: report sent 6:52 PM",
+   "tag": "WORKING",
+   "text": "Morse: checked SMS, sent report to Hermes",
    "id": "424127ae5b05"
   },
   {
@@ -570,8 +583,21 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 4:04 PM",
+   "tag": "WORKING",
+   "text": "Mark: read chat list, sent report to Hermes",
    "id": "b51b5a348c37"
+  },
+  {
+   "t": "2026-10-16T12:05:00+05:30",
+   "agent": "Form 141",
+   "kind": "blocked",
+   "route": [
+    "Form 141",
+    "Elon"
+   ],
+   "tag": "BLOCKED",
+   "text": "Form 141: blocked, needs input",
+   "id": "ef45e672480e"
   },
   {
    "t": "2026-10-16T09:00:00+05:30",
@@ -582,7 +608,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Morse → Hermes: report sent 9:00 AM",
+   "tag": "WORKING",
+   "text": "Morse: checked SMS, sent report to Hermes",
    "id": "c191194b89ec"
   },
   {
@@ -592,7 +619,8 @@
    "route": [
     "Elon"
    ],
-   "text": "Elon: update logged 9:00 AM",
+   "tag": "WORKING",
+   "text": "Elon: updated priorities",
    "id": "e61f720a6afa"
   },
   {
@@ -604,7 +632,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 9:00 AM",
+   "tag": "NEEDS YOU",
+   "text": "Mark: needs your input",
    "id": "ff59897ad107"
   },
   {
@@ -616,7 +645,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Ray → Hermes: report sent 9:00 AM",
+   "tag": "WORKING",
+   "text": "Ray: checked inbox, sent report to Hermes",
    "id": "f1f9b878026c"
   },
   {
@@ -628,7 +658,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 9:00 AM",
+   "tag": "NEEDS YOU",
+   "text": "Mark: needs your input",
    "id": "197357a82bb4"
   },
   {
@@ -640,7 +671,8 @@
     "Hermes",
     "Elon"
    ],
-   "text": "Mark → Hermes: report sent 9:00 AM",
+   "tag": "NEEDS YOU",
+   "text": "Mark: needs your input",
    "id": "661059f484b4"
   }
  ],
