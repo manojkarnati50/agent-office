@@ -1,0 +1,751 @@
+{
+ "public": true,
+ "generated": "17 Oct 2026, 04:20 PM IST",
+ "generated_iso": "2026-10-17T16:20:07.476113+05:30",
+ "pri": {
+  "P0": 1,
+  "P1": 4,
+  "P2": 4,
+  "P3": 4,
+  "P4": 3
+ },
+ "needs": 5,
+ "open": 16,
+ "done_today": 9,
+ "agents": [
+  {
+   "nick": "Elon",
+   "name": "Elon",
+   "zone": "corner",
+   "state": "external",
+   "verb": "planning the day",
+   "channel": null,
+   "role": "Chief of Staff: owns priorities and the single view for Manoj",
+   "manager": "Manoj",
+   "open_count": 1,
+   "last_report": "2026-10-17T15:45:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [
+    {
+     "pri": "P2",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    }
+   ],
+   "routines": [
+    {
+     "text": "Scheduled routine (one-off)",
+     "next_run": null,
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Hermes",
+   "name": "Hermes",
+   "zone": "manager",
+   "state": "walking",
+   "verb": "walking the floor",
+   "channel": null,
+   "role": "Communication Channels Manager: runs the channel team",
+   "manager": "Elon",
+   "open_count": 0,
+   "last_report": "2026-10-17T15:52:00+05:30",
+   "stale_after_h": 75,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": [
+    {
+     "text": "Scheduled routine (weekdays)",
+     "next_run": "2026-10-19T08:00:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (weekdays)",
+     "next_run": "2026-10-19T20:00:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (one-off)",
+     "next_run": "2026-10-21T18:00:00+05:30",
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Mark",
+   "name": "Mark",
+   "zone": "team",
+   "state": "waiting",
+   "verb": "reading chats",
+   "channel": "WhatsApp",
+   "role": "WhatsApp channel specialist",
+   "manager": "Hermes",
+   "open_count": 9,
+   "last_report": "2026-10-17T16:00:00+05:30",
+   "stale_after_h": 5.0,
+   "block_note": null,
+   "needs": [
+    {
+     "pri": "P3",
+     "ask": "Needs your decision"
+    },
+    {
+     "pri": "P2",
+     "ask": "Needs your decision"
+    },
+    {
+     "pri": "P3",
+     "ask": "Needs your decision"
+    },
+    {
+     "pri": "P4",
+     "ask": "Needs your decision"
+    }
+   ],
+   "tasks": [
+    {
+     "pri": "P2",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    },
+    {
+     "pri": "P3",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    },
+    {
+     "pri": "P4",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    },
+    {
+     "pri": "P3",
+     "status": "AWAITING MY APPROVAL"
+    },
+    {
+     "pri": "P2",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    },
+    {
+     "pri": "P2",
+     "status": "AWAITING MY APPROVAL"
+    },
+    {
+     "pri": "P3",
+     "status": "AWAITING MY APPROVAL"
+    },
+    {
+     "pri": "P4",
+     "status": "AWAITING MY APPROVAL"
+    },
+    {
+     "pri": "P3",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    }
+   ],
+   "routines": [
+    {
+     "text": "Scheduled routine (weekdays)",
+     "next_run": "2026-10-19T07:45:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (every 4 h)",
+     "next_run": "2026-10-17T20:00:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (daily)",
+     "next_run": "2026-10-17T21:30:00+05:30",
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Morse",
+   "name": "Morse",
+   "zone": "team",
+   "state": "external",
+   "verb": "tracking GST",
+   "channel": "SMS / GST",
+   "role": "SMS / iMessage and GST tracker",
+   "manager": "Hermes",
+   "open_count": 2,
+   "last_report": "2026-10-16T18:52:00+05:30",
+   "stale_after_h": 75,
+   "block_note": null,
+   "needs": [],
+   "tasks": [
+    {
+     "pri": "P1",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    },
+    {
+     "pri": "P1",
+     "status": "AWAITING EXTERNAL RESPONSE"
+    }
+   ],
+   "routines": [
+    {
+     "text": "Scheduled routine (weekdays)",
+     "next_run": "2026-10-19T10:00:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (monthly dates)",
+     "next_run": "2026-10-18T10:00:00+05:30",
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Ray",
+   "name": "Ray",
+   "zone": "team",
+   "state": "waiting",
+   "verb": "watching inbox",
+   "channel": "Email",
+   "role": "Email channel specialist",
+   "manager": "Hermes",
+   "open_count": 3,
+   "last_report": "2026-10-17T15:09:00+05:30",
+   "stale_after_h": 1.5,
+   "block_note": null,
+   "needs": [
+    {
+     "pri": "P0",
+     "ask": "Needs your decision"
+    }
+   ],
+   "tasks": [
+    {
+     "pri": "P0",
+     "status": "AWAITING MY APPROVAL"
+    },
+    {
+     "pri": "P1",
+     "status": "IN PROGRESS"
+    },
+    {
+     "pri": "P4",
+     "status": "BLOCKED"
+    }
+   ],
+   "routines": [
+    {
+     "text": "Scheduled routine (every 30 min)",
+     "next_run": "2026-10-17T16:30:00+05:30",
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Graham Bell",
+   "name": "Graham Bell",
+   "zone": "team",
+   "state": "idle",
+   "verb": "logging calls",
+   "channel": "Calls",
+   "role": "Calls log specialist",
+   "manager": "Hermes",
+   "open_count": 0,
+   "last_report": null,
+   "stale_after_h": 27,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": [
+    {
+     "text": "Scheduled routine (daily)",
+     "next_run": "2026-10-17T21:00:00+05:30",
+     "active": true
+    },
+    {
+     "text": "Scheduled routine (weekly)",
+     "next_run": "2026-10-18T20:00:00+05:30",
+     "active": true
+    }
+   ]
+  },
+  {
+   "nick": "Form 141",
+   "name": "Form 141",
+   "zone": "tax",
+   "state": "blocked",
+   "verb": "guarding CRNs",
+   "channel": null,
+   "role": "Tax filing registry specialist",
+   "manager": "Elon (direct)",
+   "open_count": 1,
+   "last_report": "2026-10-16T12:05:00+05:30",
+   "stale_after_h": null,
+   "block_note": "Blocked",
+   "needs": [],
+   "tasks": [
+    {
+     "pri": "P1",
+     "status": "BLOCKED"
+    }
+   ],
+   "routines": []
+  },
+  {
+   "nick": "Instagram Story Sharable Content",
+   "name": "Instagram Story Sharable Content",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-09-12T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "Telangana Market Value",
+   "name": "Telangana Market Value",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-10-05T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "Telangana Survey & Owners",
+   "name": "Telangana Survey & Owners",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-10-05T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "PAN name update helper",
+   "name": "PAN name update helper",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-10-16T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "Restaurant Reservations",
+   "name": "Restaurant Reservations",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-09-26T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "New Bot",
+   "name": "New Bot",
+   "zone": "oncall",
+   "state": "idle",
+   "verb": "on call",
+   "channel": null,
+   "role": "On-call utility bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-09-21T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  },
+  {
+   "nick": "WhatsApp Poster",
+   "name": "WhatsApp Poster",
+   "zone": "retired",
+   "state": "retired",
+   "verb": "sleeping zzz",
+   "channel": null,
+   "role": "Retired relay bot",
+   "manager": "Elon (on demand)",
+   "open_count": 0,
+   "last_report": "2026-10-15T09:00:00+05:30",
+   "stale_after_h": null,
+   "block_note": null,
+   "needs": [],
+   "tasks": [],
+   "routines": []
+  }
+ ],
+ "events": [
+  {
+   "t": "2026-10-17T16:00:00+05:30",
+   "agent": "Mark",
+   "kind": "update",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 4:00 PM",
+   "id": "0387def965f7"
+  },
+  {
+   "t": "2026-10-17T16:00:00+05:30",
+   "agent": "Mark",
+   "kind": "update",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 4:00 PM",
+   "id": "956589c622db"
+  },
+  {
+   "t": "2026-10-17T15:57:00+05:30",
+   "agent": "Mark",
+   "kind": "needs",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 3:57 PM",
+   "id": "c120f59b6794"
+  },
+  {
+   "t": "2026-10-17T15:52:00+05:30",
+   "agent": "Hermes",
+   "kind": "update",
+   "route": [
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Hermes → Elon: report sent 3:52 PM",
+   "id": "eadbd0ed1334"
+  },
+  {
+   "t": "2026-10-17T15:45:00+05:30",
+   "agent": "Elon",
+   "kind": "update",
+   "route": [
+    "Elon"
+   ],
+   "text": "Elon: update logged 3:45 PM",
+   "id": "f8f0cb298533"
+  },
+  {
+   "t": "2026-10-17T12:00:00+05:30",
+   "agent": "Mark",
+   "kind": "done",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 12:00 PM",
+   "id": "f71e779a735d"
+  },
+  {
+   "t": "2026-10-17T09:00:00+05:30",
+   "agent": "Ray",
+   "kind": "update",
+   "route": [
+    "Ray",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Ray → Hermes: report sent 9:00 AM",
+   "id": "092853c1f139"
+  },
+  {
+   "t": "2026-10-17T09:00:00+05:30",
+   "agent": "Elon",
+   "kind": "update",
+   "route": [
+    "Elon"
+   ],
+   "text": "Elon: update logged 9:00 AM",
+   "id": "250c100098c3"
+  },
+  {
+   "t": "2026-10-17T08:52:00+05:30",
+   "agent": "Mark",
+   "kind": "update",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 8:52 AM",
+   "id": "78e8c557641d"
+  },
+  {
+   "t": "2026-10-17T08:39:00+05:30",
+   "agent": "Mark",
+   "kind": "done",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 8:39 AM",
+   "id": "fad48c0a994c"
+  },
+  {
+   "t": "2026-10-17T08:29:00+05:30",
+   "agent": "Mark",
+   "kind": "update",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 8:29 AM",
+   "id": "c8b5ca3d1921"
+  },
+  {
+   "t": "2026-10-16T19:31:00+05:30",
+   "agent": "Ray",
+   "kind": "needs",
+   "route": [
+    "Ray",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Ray → Hermes: report sent 7:31 PM",
+   "id": "a5d484ae0157"
+  },
+  {
+   "t": "2026-10-16T18:52:00+05:30",
+   "agent": "Morse",
+   "kind": "update",
+   "route": [
+    "Morse",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Morse → Hermes: report sent 6:52 PM",
+   "id": "424127ae5b05"
+  },
+  {
+   "t": "2026-10-16T16:04:00+05:30",
+   "agent": "Mark",
+   "kind": "update",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 4:04 PM",
+   "id": "b51b5a348c37"
+  },
+  {
+   "t": "2026-10-16T09:00:00+05:30",
+   "agent": "Morse",
+   "kind": "update",
+   "route": [
+    "Morse",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Morse → Hermes: report sent 9:00 AM",
+   "id": "c191194b89ec"
+  },
+  {
+   "t": "2026-10-16T09:00:00+05:30",
+   "agent": "Elon",
+   "kind": "update",
+   "route": [
+    "Elon"
+   ],
+   "text": "Elon: update logged 9:00 AM",
+   "id": "e61f720a6afa"
+  },
+  {
+   "t": "2026-10-15T09:00:00+05:30",
+   "agent": "Mark",
+   "kind": "needs",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 9:00 AM",
+   "id": "ff59897ad107"
+  },
+  {
+   "t": "2026-10-15T09:00:00+05:30",
+   "agent": "Ray",
+   "kind": "update",
+   "route": [
+    "Ray",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Ray → Hermes: report sent 9:00 AM",
+   "id": "f1f9b878026c"
+  },
+  {
+   "t": "2026-10-13T09:00:00+05:30",
+   "agent": "Mark",
+   "kind": "needs",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 9:00 AM",
+   "id": "197357a82bb4"
+  },
+  {
+   "t": "2026-10-13T09:00:00+05:30",
+   "agent": "Mark",
+   "kind": "needs",
+   "route": [
+    "Mark",
+    "Hermes",
+    "Elon"
+   ],
+   "text": "Mark → Hermes: report sent 9:00 AM",
+   "id": "661059f484b4"
+  }
+ ],
+ "items": [
+  {
+   "status": "AWAITING MY APPROVAL",
+   "pri": "P0"
+  },
+  {
+   "status": "IN PROGRESS",
+   "pri": "P1"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P1"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P1"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P2"
+  },
+  {
+   "status": "CANCELLED",
+   "pri": "—"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P2"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P3"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P4"
+  },
+  {
+   "status": "COMPLETED",
+   "pri": "P3"
+  },
+  {
+   "status": "AWAITING MY APPROVAL",
+   "pri": "P3"
+  },
+  {
+   "status": "BLOCKED",
+   "pri": "P4"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P2"
+  },
+  {
+   "status": "AWAITING MY APPROVAL",
+   "pri": "P2"
+  },
+  {
+   "status": "AWAITING MY APPROVAL",
+   "pri": "P3"
+  },
+  {
+   "status": "AWAITING MY APPROVAL",
+   "pri": "P4"
+  },
+  {
+   "status": "AWAITING EXTERNAL RESPONSE",
+   "pri": "P3"
+  }
+ ],
+ "deadlines": [
+  {
+   "due": "2026-08-30",
+   "pri": "P1"
+  },
+  {
+   "due": "2026-10-06",
+   "pri": "P2"
+  },
+  {
+   "due": "2026-10-19",
+   "pri": "P2"
+  },
+  {
+   "due": "2026-10-20",
+   "pri": "P1"
+  },
+  {
+   "due": "2026-10-21",
+   "pri": "P1"
+  },
+  {
+   "due": "2026-10-21",
+   "pri": "P2"
+  },
+  {
+   "due": "2026-11-17",
+   "pri": "P0"
+  },
+  {
+   "due": "2026-11-17",
+   "pri": "P1"
+  }
+ ]
+}
