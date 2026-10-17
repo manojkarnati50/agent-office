@@ -1,7 +1,7 @@
 {
  "public": true,
- "generated": "17 Oct 2026, 04:28 PM IST",
- "generated_iso": "2026-10-17T16:28:54.824574+05:30",
+ "generated": "17 Oct 2026, 04:44 PM IST",
+ "generated_iso": "2026-10-17T16:44:47.218216+05:30",
  "pri": {
   "P0": 1,
   "P1": 4,
@@ -234,7 +234,7 @@
    "routines": [
     {
      "text": "Scheduled routine (every 30 min)",
-     "next_run": "2026-10-17T16:30:00+05:30",
+     "next_run": "2026-10-17T17:00:00+05:30",
      "active": true
     }
    ]
