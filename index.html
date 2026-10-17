@@ -90,8 +90,8 @@ footer{max-width:1440px;margin:auto;padding:0 12px 20px;color:#6d6e72;font-size:
 <script>
 const INLINE=/*DATA*/{
  "public": true,
- "generated": "17 Oct 2026, 04:44 PM IST",
- "generated_iso": "2026-10-17T16:44:47.218216+05:30",
+ "generated": "17 Oct 2026, 04:45 PM IST",
+ "generated_iso": "2026-10-17T16:45:20.437071+05:30",
  "pri": {
   "P0": 1,
   "P1": 4,
@@ -871,7 +871,7 @@ const INLINE=/*DATA*/{
   }
  ]
 }/*END*/;
-let D=null,mode,W,H,POS={},lastJSON='',seenEv=null,prev={},chime=false,orgOn=true;
+let D=null,mode,W,H,POS={},lastJSON='',seenEv=null,prev={},orgOn=true;
 const Q=new URLSearchParams(location.search),PT0=performance.now();
 const OFF=(()=>{const t=Q.get('t');if(!t)return 0;const[h,m]=t.split(':').map(Number);const n=new Date();const ist=new Date(n.getTime()+(330+n.getTimezoneOffset())*6e4);return((h*60+(m||0))-(ist.getHours()*60+ist.getMinutes()))*6e4})();
 const now=()=>Date.now()+OFF;
@@ -1121,7 +1121,7 @@ setInterval(()=>{if(!SND.amb||!SND.ambNode||!D)return;const w=D.agents.filter(a=
 function spRender(){const b=document.getElementById('bSnd');b.textContent=MICON[SND.mode];b.classList.toggle('on',SND.mode>0);
  document.getElementById('sp').innerHTML=`<h4>Sound · ${MODES[SND.mode]}</h4><div class="seg">${MODES.map((m,i)=>`<button data-m="${i}" class="${i==SND.mode?'on':''}">${m}</button>`).join('')}</div>
  <label><span>Quiet office ambience</span><input type="checkbox" id="ambT" ${SND.amb?'checked':''}></label><button class="tb" id="tst">▶ Test sound</button>
- <small>Voice: ${SND.voice?esc(SND.voice.name)+' ('+esc(SND.voice.lang)+')':'loading…'}<br>Tap the speaker to cycle modes.</small>`;
+ <small>Voice: ${SND.voice?esc(SND.voice.name)+' ('+esc(SND.voice.lang)+')':'system default (no English voices listed yet)'}<br>Tap the speaker to cycle modes.</small>`;
  document.querySelectorAll('#sp .seg button').forEach(x=>x.onclick=e=>{e.stopPropagation();unlock();setMode(+x.dataset.m)});
  document.getElementById('ambT').onchange=e=>{unlock();SND.amb=e.target.checked;localStorage.setItem('ao.amb',SND.amb?'1':'0');ambience(SND.amb)};
  document.getElementById('tst').onclick=e=>{e.stopPropagation();unlock();chime('needs',true);setTimeout(()=>say('Hi Manoj, your agent office is live.',true),500)}}
